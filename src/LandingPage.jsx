@@ -1,11 +1,10 @@
 import React from 'react';
 import Navbar from './Navbar';
 
-
 function LandingPage() {
   return (
     <>
-    <Navbar />
+    <Navbar/>
     </>
   )
 }
