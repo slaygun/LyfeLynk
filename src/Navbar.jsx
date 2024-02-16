@@ -66,6 +66,7 @@ const Navbar = () => {
                 to={link.id}
                 smooth={true}
                 duration={500}
+                offset={-100}
                 //activeClass="active"
               >
                 <Button variant="ghost">{link.text}</Button>
@@ -89,6 +90,7 @@ const Navbar = () => {
                   to={link.id}
                   smooth={true}
                   duration={500}
+                  offset={-100}
                   onClick={() => setIsMenuOpen(false)} // Close menu on link click
                   className="text-bold"
                 >
