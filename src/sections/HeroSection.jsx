@@ -1,10 +1,12 @@
 import TiltEffect from "@/components/TiltEffect"
 import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
+
 
 export default function Component() {
   return (
     
-    <section className="min-h-screen px-4 space-y-10">
+    <section className="min-h-screen px-4 pb-10 space-y-10">
 
       <div class="circlePosition w-11/12 h-11/12 bg-[#367ed142] rounded-[100%] absolute -z-10 blur-[100px] flex justify-center items-center">
         <div class="circle w-[17rem] h-[17rem] bg-[#264dfd42] rounded-[100%]" />
@@ -39,7 +41,8 @@ export default function Component() {
 
       </div>
 
-      <div id="idea" className=" md:container flex justify-center">
+      <div id="idea" className=" md:container text-center space-y-4">
+        <Badge variant="outline">Our Vision</Badge>
         <div className="rounded-xl overflow-hidden">
           <video controls>
             <source src="/assets/herovideo.mp4" type="video/mp4" />
