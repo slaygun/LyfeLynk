@@ -92,7 +92,7 @@ const Navbar = () => {
                   duration={500}
                   offset={-100}
                   onClick={() => setIsMenuOpen(false)} // Close menu on link click
-                  className="text-bold"
+                  className="cursor-pointer text-bold"
                 >
                   <div>
                     {link.text}
