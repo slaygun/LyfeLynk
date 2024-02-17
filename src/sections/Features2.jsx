@@ -23,8 +23,8 @@ const Features2 = () => {
         </div>
 
         {/* Tab Indicator */}
-        <div className="flex justify-start p-2">
-          <div className="flex rounded-full shadow-md">
+        <div className="flex justify-start p-2 ">
+          <div className="flex rounded-full shadow-md bg-black">
             <div
               className={`cursor-pointer py-2 px-3 mr-2 rounded-full ${
                 activeTab === 1 ? 'bg-gray-800 text-white' : ''
