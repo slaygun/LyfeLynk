@@ -80,7 +80,7 @@ const Features2 = () => {
       </div>
 
       {/* Image Column */}
-      <div className="lg:flex-shrink-0 lg:w-1/2 mt-2 lg:mt-0">
+      <div className="shadow-[7px_7px_153px_10px_rgba(45,_72,_210,_0.52)] lg:flex-shrink-0 lg:w-1/2 mt-2 lg:mt-0">
         <img src={tabImages[activeTab - 1]} alt="Technologies Used" className="w-full h-auto rounded-lg" />
       </div>
     </div>
