@@ -43,7 +43,7 @@ export default function Component() {
 
       <div id="idea" className=" md:container text-center space-y-4">
         <Badge variant="outline">Our Vision</Badge>
-        <div className="rounded-xl overflow-hidden">
+        <div className="shadow-[7px_7px_153px_10px_rgba(45,_72,_210,_0.52)] rounded-xl overflow-hidden">
           <video controls>
             <source src="/assets/herovideo.mp4" type="video/mp4" />
           </video>
