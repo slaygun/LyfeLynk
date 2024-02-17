@@ -9,7 +9,7 @@ export default function Component() {
     <section className="min-h-screen px-4 pb-10 space-y-10">
 
       <div class="circlePosition w-11/12 h-11/12 bg-[#367ed142] rounded-[100%] absolute -z-10 blur-[100px] flex justify-center items-center">
-        <div class="circle w-[17rem] h-[17rem] bg-[#264dfd42] rounded-[100%]" />
+        <div class="circle w-[17rem] h-[17rem] bg-[#5743ee42] rounded-[100%]" />
       </div>
 
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
