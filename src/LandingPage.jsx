@@ -5,6 +5,7 @@ import HeroSection from './sections/HeroSection';
 import CTA from './sections/CTA';
 import Faq from './sections/Faq';
 import Footer from './sections/Footer';
+import AboutUs from './sections/AboutUs';
 
 function LandingPage() {
   return (
@@ -12,6 +13,8 @@ function LandingPage() {
     <Navbar/>
     <HeroSection/>
     <Features/>
+    <AboutUs/>
+    <CTA/>
     <Faq/>
     <Footer/>
     </>

@@ -1,36 +1,15 @@
-import { Button } from "@/components/ui/button";
-import { ChevronRight } from 'lucide-react';
+import { Button } from "@/components/ui/button"
 
-function CTA() {
+export default function CTA() {
   return (
-    <section className='py-10 container px-4 md:px-6'>
-      <div className="bg-primary rounded-lg p-8 shadow-md text-foreground">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div className="text-center lg:text-left container space-y-6"> {/* Increased vertical spacing */}
-            <h6 className="text-sm font-medium uppercase">Lyfelynk healthcare</h6>
-            <h1 className="text-4xl md:text-6xl font-bold mb-8">Own Your Health</h1> {/* Increased bottom margin */}
-            <p className="text-lg leading-loose"> {/* Increased line-height */}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
-            </p>
-            <Button variant="outline"> Get Started <ChevronRight/></Button>
-          </div>
-          <div className='flex justify-center'>
-            <img
-              alt="f1"
-              height="auto"
-              src="assets/ctapic.png"
-              style={{
-                aspectRatio: "1080/720",
-              }}
-              width="100%"
-            />
-          </div>
+    <section className="container py-10">
+      <div className="bg-gradient-to-r from-violet-400 via-blue-500 to-indigo-600 bg-primary py-10 px-10 text-center rounded-xl space-y-10">
+        <h1 className="text-4xl md:text-8xl font-extrabold mb-4">Start your journey with LyfeLynk</h1>
+        <div className="inline-flex space-x-4 pt-5">
+          <Button variant="secondary">The Button</Button>
+          <Button variant="outline">Get Started</Button>
         </div>
       </div>
     </section>
-  );
+  )
 }
-
-export default CTA;
