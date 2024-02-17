@@ -10,7 +10,7 @@ const Tab = () => {
   };
 
   return (
-    <div className="container py-10">
+    <div id="features" className="container py-10">
 
       <div className='pl-4 pb-4'><Badge variant="outline">Health ID</Badge></div>
 
