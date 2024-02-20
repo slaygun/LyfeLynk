@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <nav className={`
-      sticky top-0 z-10
+      sticky top-0 z-20
       ${isScrolled ? 'backdrop-blur-xl backdrop-filter bg-background/50 shadow-lg' : 'bg-transparent'}
       `}
     >
