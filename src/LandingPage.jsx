@@ -6,7 +6,7 @@ import CTA from './sections/CTA';
 import Faq from './sections/Faq';
 import Footer from './sections/Footer';
 import AboutUs from './sections/AboutUs';
-import Features2 from './sections/Features2';
+//import Features2 from './sections/Features2';
 
 function LandingPage() {
   return (

@@ -59,7 +59,7 @@ export default function AboutUs() {
             <CarouselContent className="px-4">
               {teamData.map((member) => (
                 <CarouselItem key={member.name} className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-                  <Card className="flex flex-col items-center text-center p-6 h-full">
+                  <Card className="flex flex-col items-center text-center p-6 h-full ">
                     <Avatar className="w-20 h-20 border-2 border-gray-200">
                       <AvatarImage alt={member.name} src={member.avatar} />
                       <AvatarFallback>{member.name.slice(0, 2)}</AvatarFallback>
