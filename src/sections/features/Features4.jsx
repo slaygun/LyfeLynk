@@ -23,7 +23,7 @@ const Features4 = () => {
   ];
 
   return (
-    <section id="features" className='container py-10'>
+    <section className='container py-10'>
       <div className="container py-10 flex flex-col lg:flex-row bg-primary rounded-lg">
         {/* Content Column */}
         <div className="lg:flex-1 lg:w-1/2">
