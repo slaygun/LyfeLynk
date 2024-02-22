@@ -80,7 +80,7 @@ export default function Features2() {
 
   return (
     <div className="container h-[30rem] md:h-[45rem] relative b flex flex-col mx-auto w-full  items-start justify-start md:mt-10 mb-40">
-      <Badge variant="outline" className="my-6">Ethical Data Sourcing</Badge>
+      <Badge variant="outline" className="my-6">DeAI Analytics</Badge>
       <Tabs tabs={tabs} />
     </div>
   );
