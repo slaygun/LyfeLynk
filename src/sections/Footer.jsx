@@ -29,7 +29,6 @@ export default function Footer() {
           <p className="text-gray-400">
             Digitally Linking Your Health.
             <br></br>
-            <br></br>
             © 2024 LyfeLynk All rights reserved.
           </p>
         </div>
