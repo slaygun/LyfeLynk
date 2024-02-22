@@ -11,25 +11,32 @@ import {
 
 const teamData = [
   {
-    name: "Alice Smith",
+    name: "Sivia Goyal",
     designation: "CEO",
     avatar: "your-avatar-image-1.jpg", // Replace with your image paths
     content:
-      "I'm passionate about empowering people to take control of their health data. LyfeLynk makes it easy and secure to manage and share your information.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
-    name: "David Moore",
-    designation: "Head of Marketing",
+    name: "Aaditya Chandankar",
+    designation: "CTO",
     avatar: "your-avatar-image-2.jpg",
     content:
-      "Our marketing team is dedicated to raising awareness about the importance of data privacy and the benefits of LyfeLynk's innovative platform.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
-    name: "David Moore",
-    designation: "Head of Marketing",
+    name: "Nabh Raghav",
+    designation: "Lead Designer",
     avatar: "your-avatar-image-2.jpg",
     content:
-      "Our marketing team is dedicated to raising awareness about the importance of data privacy and the benefits of LyfeLynk's innovative platform.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+  },
+  {
+    name: "Harshvardhan Singh",
+    designation: "AI & ML Head",
+    avatar: "your-avatar-image-2.jpg",
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   // Add more team members here
 ];
@@ -56,10 +63,10 @@ export default function AboutUs() {
             }}
             className="py-4 w-full max-w-64 sm:max-w-xl md:max-w-2xl lg:max-w-4xl"
           >
-            <CarouselContent className="px-4">
+            <CarouselContent className="px-4 ">
               {teamData.map((member) => (
                 <CarouselItem key={member.name} className="sm:basis-1/2 md:basis-1/2 lg:basis-1/3">
-                  <Card className="flex flex-col items-center text-center p-6 h-full ">
+                  <Card className="flex flex-col items-center text-center p-6 h-full backdrop-filter bg-background/50 shadow-lg">
                     <Avatar className="w-20 h-20 border-2 border-gray-200">
                       <AvatarImage alt={member.name} src={member.avatar} />
                       <AvatarFallback>{member.name.slice(0, 2)}</AvatarFallback>

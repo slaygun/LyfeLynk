@@ -14,11 +14,11 @@ export default function Component() {
 
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
 
-        <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
-          Your Best Value <span class="bg-gradient-to-tl from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text">Proposition</span> Here.
+        <h1 class="text-4xl md:text-7xl font-bold leading-tight mb-6">
+          Digitally <span class="bg-gradient-to-tl from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text">Linking</span> your Health.
         </h1>
 
-        <p className="text-xl mb-8">Lorem ipsum dolor sit amet, consecutor edit.</p>
+        <p className="text-xl mb-8">Get All your Health Data at a click of a Button and Make it earn for You! </p>
 
         <div className="flex space-x-4 ">
           <Button>The Button</Button>

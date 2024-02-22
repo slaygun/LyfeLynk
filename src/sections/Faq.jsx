@@ -1,6 +1,54 @@
-import { AccordionTrigger, AccordionContent, AccordionItem, Accordion } from "@/components/ui/accordion"
-import { Badge } from "@/components/ui/badge"
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
+import { Badge } from "@/components/ui/badge";
 
+const faqData = [
+  {
+    question: "How is LyfeLynk different from other health data storage platforms?",
+    answer: (
+      <p>
+        LyfeLynk prioritizes three key areas that set us apart:
+        <br />
+        <strong>Unmatched Control:</strong> You are the sole owner of your health data, without corporate influence or hidden agendas.
+        <br />
+        <strong>Ethical Data Marketplace:</strong> If you choose to share your data for research, you receive fair compensation and full transparency.
+        <br />
+        <strong>Privacy-First AI:</strong> Our advanced analytics safeguard your sensitive information while generating the insights researchers need.
+      </p>
+    ),
+  },
+  {
+    question: "Is my health data really safe on LyfeLynk?",
+    answer: (
+      <p>
+        Absolutely! We utilize state-of-the-art blockchain encryption to protect your health data. This technology is nearly unbreakable, ensuring both its privacy and safekeeping. Think of it as an incredibly secure digital vault for your most important health information.
+      </p>
+    ),
+  },
+  {
+    question: "Can I share my LyfeLynk Health ID with any doctor or hospital?",
+    answer: (
+      <p>
+        Yes! LyfeLynk’s goal is universal access. You can easily share your Health ID with chosen healthcare providers, clinics, or hospitals of your choice. This streamlines consultations and eliminates the hassle of repetitive paperwork and searching for scattered medical records.
+      </p>
+    ),
+  },
+  {
+    question: "How does participating in the data marketplace work?",
+    answer: (
+      <p>
+        You always have full control! When research institutions express interest in data similar to yours, you'll be notified and asked for permission. You choose whether to share your anonymized data, set its availability criteria, and always have the right to withdraw. You’ll see upfront how much you can earn and understand exactly how your data contributes to research projects.
+      </p>
+    ),
+  },
+  {
+    question: "What kind of insights can I expect from my LyfeLynk Health ID?",
+    answer: (
+      <p>
+        LyfeLynk analyzes your health data and transforms it into clear, actionable insights. Gain an in-depth understanding of trends in your health, receive personalized recommendations based on your history, and get alerts about potential health concerns. LyfeLynk helps you navigate your health journey with clarity.
+      </p>
+    ),
+  },
+];
 
 function Faq() {
   return (
@@ -12,46 +60,16 @@ function Faq() {
 
       <div className="mt-6">
         <Accordion className="w-full divide-y" collapsible type="single">
-          <AccordionItem value="item-1">
-            <AccordionTrigger className="p-4 cursor-pointer text-lg font-medium  ">
-              What is the purpose of this website?
-            </AccordionTrigger>
-            <AccordionContent className="p-4">
-              This website is designed to provide users with a comprehensive overview of our services and products.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-2">
-            <AccordionTrigger className="p-4 cursor-pointer text-lg font-medium  ">
-              How can I contact customer support?
-            </AccordionTrigger>
-            <AccordionContent className="p-4">
-              You can reach out to our customer support team via the 'Contact Us' page. We are available 24/7 to
-              assist you.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-3">
-            <AccordionTrigger className="p-4 cursor-pointer text-lg font-medium">
-              What are the payment methods available?
-            </AccordionTrigger>
-            <AccordionContent className="p-4">
-              We accept all major credit cards, PayPal, and bank transfers.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-4">
-            <AccordionTrigger className="p-4 cursor-pointer text-lg font-medium">
-              How safe is it to Sign Up?
-            </AccordionTrigger>
-            <AccordionContent className="p-4">
-            Signing up with us is completely safe, and we employ industry-standard 
-            security measures to protect your personal information. 
-            </AccordionContent>
-          </AccordionItem>
+          {faqData.map((item, index) => (
+            <AccordionItem key={index} value={`item-${index + 1}`}>
+              <AccordionTrigger className="p-4 cursor-pointer text-lg font-medium">{item.question}</AccordionTrigger>
+              <AccordionContent className="p-4">{item.answer}</AccordionContent>
+            </AccordionItem>
+          ))}
         </Accordion>
-
       </div>
-
     </section>
-  )
+  );
 }
 
 export default Faq;
