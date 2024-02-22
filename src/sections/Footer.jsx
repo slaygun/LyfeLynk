@@ -1,63 +1,71 @@
-import { Facebook } from 'lucide-react';
-import { Mail } from 'lucide-react';
-import { Twitter } from 'lucide-react';
-import { Linkedin } from 'lucide-react';
+import { Button } from "@/components/ui/button"
+import { Twitter, Instagram } from 'lucide-react';
+import { Link } from 'react-scroll';
 
 
-function Footer() {
+export default function Footer() {
+
+  const links = [
+    { id: 'idea', text: 'Idea' },
+    { id: 'features', text: 'Features' },
+    { id: 'about', text: 'About Us' },
+    { id: 'contact', text: 'Contact Us' },
+  ];
+  
   return (
-    <div className="bg-gray-900 py-10 px-4 md:px-6">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="flex flex-col items-start">
-          <div className="py-4 flex items-center">
+    <footer className=" text-white p-10">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
+        <div>
+          <div className="text-xl font-semibold mb-4 flex items-center space-x-2">
             <img src="/assets/lyfelynk.svg" alt="LyfeLynk Logo" className="w-8 h-8 mr-2" />
             <a href="/" className="scroll-m-20 text-2xl lg:text-3xl font-semibold tracking-tight">
               LyfeLynk
             </a>
           </div>
-          <p className=" text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className="text-gray-400">
+            Digitally Linking Your Health.
+            <br></br>
+            Get All your Health Data at a click of a Button and Make it earn for You!
           </p>
         </div>
-        <div className="flex flex-col items-start">
-          <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
-          <a className=" text-gray-500  hover:text-primary  mb-1" href="#">
-            About Us
-          </a>
-          <a className=" text-gray-500  hover:text-primary  mb-1" href="#">
-            Services
-          </a>
-          <a className=" text-gray-500  hover:text-primary  mb-1" href="#">
-            Contact Us
-          </a>
-          <a className=" text-gray-500  hover:text-primary  mb-1" href="#">
-            Help Center
-          </a>
-        </div>
-        <div className="flex flex-col items-start">
-          <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
-          <div className="flex space-x-4">
-            <a href="#">
-              <Mail className="h-6 w-6  text-gray-500  hover:text-primary " />
-            </a>
-            <a href="#">
-              <Facebook className="h-6 w-6  text-gray-500  hover:text-primary " />
-            </a>
-            <a href="#">
-              <Twitter className="h-6 w-6  text-gray-500  hover:text-primary " />
-            </a>
-            <a href="#">
-              <Linkedin className="h-6 w-6  text-gray-500  hover:text-primary " />
-            </a>
+        
+        <div>
+          <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div className="mb-4">
+              <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
+                <ul>
+                {links.map((link) => (
+                  <li key={link.id}>
+                    <Link
+                      to={link.id}
+                      smooth={true}
+                      duration={500}
+                      offset={-100}
+                      //activeClass="active"
+                    >
+                      <button className="text-gray-400 hover:text-gray-300 cursor:pointer">{link.text}</button>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
+              <div className="flex space-x-4">
+                <a className="text-gray-400 hover:text-gray-300" href="https://twitter.com/lyfelynk" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="h-5 w-5" />
+                </a>
+                <a className="text-gray-400 hover:text-gray-300" href="https://www.instagram.com/lyfelynk/" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="h-5 w-5" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-700 mt-8 pt-8 text-center  text-gray-500 text-sm">
-        © 2024 LyfeLynk All rights reserved.
+      <div className="border-t border-gray-600 mt-8 pt-4">
+        <p className="text-center text-gray-400 text-sm">© 2024 LyfeLynk All rights reserved.</p>
       </div>
-    </div>
-  )
+    </footer>
+  );
 }
-
-
-export default Footer;
