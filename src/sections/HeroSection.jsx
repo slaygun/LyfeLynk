@@ -41,14 +41,32 @@ export default function Component() {
 
       </div>
 
-      <div id="idea" className=" md:container text-center space-y-4">
+      <div id="idea" className="md:container text-center space-y-4">
         <Badge variant="outline">Our Vision</Badge>
         <div className="shadow-[7px_7px_153px_10px_rgba(45,_72,_210,_0.52)] rounded-xl overflow-hidden">
-          <video controls>
-            <source src="/assets/hero_video.mp4" type="video/mp4" />
-          </video>
+          <div
+            style={{
+              position: "relative",
+              paddingTop: "56.25%", // 9:16 aspect ratio (1080 / 1920)
+            }}
+          >
+            <video
+              controls
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover", // or "contain" based on your preference
+              }}
+            >
+              <source src="/assets/hero_video.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
       </div>
+
 
 
     </section>
