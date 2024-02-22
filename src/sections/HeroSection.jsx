@@ -45,7 +45,7 @@ export default function Component() {
         <Badge variant="outline">Our Vision</Badge>
         <div className="shadow-[7px_7px_153px_10px_rgba(45,_72,_210,_0.52)] rounded-xl overflow-hidden">
           <video controls>
-            <source src="/assets/herovideo.mp4" type="video/mp4" />
+            <source src="/assets/hero_video.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
