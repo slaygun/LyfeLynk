@@ -29,13 +29,13 @@ export default function Component() {
         <img
           alt="lyfelynk hero picture"
           className="mt-10"
-          height="800"
-          src="/assets/ctapic.png"
+          height="500"
+          src="/assets/heart.png"
           style={{
             //aspectRatio: "300/300",
             objectFit: "cover",
           }}
-          width="800"
+          width="500"
         />
         </TiltEffect>
 
@@ -43,7 +43,7 @@ export default function Component() {
 
       <div id="idea" className="md:container text-center space-y-4">
         <Badge variant="outline">Our Vision</Badge>
-        <div className="shadow-[7px_7px_153px_10px_rgba(45,_72,_210,_0.52)] rounded-xl overflow-hidden">
+        <div className="rounded-xl overflow-hidden">
           <div
             style={{
               position: "relative",

@@ -14,8 +14,12 @@ export default function Footer() {
   
   return (
     <footer className=" text-white p-10">
+
+      <div className="border-t border-gray-600 mt-8 py-4"></div>
+
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 justify-center">
         <div>
+          
           <div className="text-xl font-semibold mb-4 flex items-center space-x-2">
             <img src="/assets/lyfelynk.svg" alt="LyfeLynk Logo" className="w-8 h-8 mr-2" />
             <a href="/" className="scroll-m-20 text-2xl lg:text-3xl font-semibold tracking-tight">
@@ -25,7 +29,8 @@ export default function Footer() {
           <p className="text-gray-400">
             Digitally Linking Your Health.
             <br></br>
-            Get All your Health Data at a click of a Button and Make it earn for You!
+            <br></br>
+            © 2024 LyfeLynk All rights reserved.
           </p>
         </div>
         
@@ -63,9 +68,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-600 mt-8 pt-4">
-        <p className="text-center text-gray-400 text-sm">© 2024 LyfeLynk All rights reserved.</p>
-      </div>
+
     </footer>
   );
 }
