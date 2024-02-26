@@ -52,10 +52,10 @@ const Navbar = () => {
           </div>
 
           {/* LyfeLynk logo and name */}
-          <Link onClick={handleLogoClick} to="/">
+          <Link className = "flex cursor-pointer" onClick={handleLogoClick} to="/">
             <img src="/assets/lyfelynk.svg" alt="LyfeLynk" className="w-8 h-8 mr-2" />
-          </Link>
           <span className="text-2xl font-bold">LyfeLynk</span>
+          </Link>
         </div>
 
         {/* Navigation Links */}
