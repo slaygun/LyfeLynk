@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        customFont: ['Helvetica']
+        customFont: ['Poppins']
       },
       colors: {
         border: "hsl(var(--border))",

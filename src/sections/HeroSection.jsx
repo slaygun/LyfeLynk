@@ -54,8 +54,8 @@ export default function Component() {
       
       <AnimatedSection>
         <div id="vision" className="md:container text-center space-y-4">
-          <h1 className = "text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-left
-          bg-gradient-to-l from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text">Our Vision</h1>
+          <h1 className = "text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl  bg-gradient-to-l from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text">
+            Our Vision</h1>
           <div className="rounded-xl overflow-hidden">
             <div
               style={{
