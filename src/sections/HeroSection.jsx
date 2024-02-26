@@ -1,7 +1,7 @@
 import TiltEffect from "@/components/TiltEffect"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-
+import { Link } from 'react-scroll';
 
 export default function Component() {
   return (
@@ -21,7 +21,15 @@ export default function Component() {
         <p className="text-xl mb-8">Get All your Health Data at a click of a Button and Make it earn for You! </p>
 
         <div className="flex space-x-4 ">
-          <Button>Contact Us</Button>
+          <Link
+                  to={"contact"}
+                  smooth={true}
+                  duration={500}
+                  offset={-100}
+                  //activeClass="active"
+                >
+            <Button>Contact Us</Button>
+          </Link>
           <Button className="" variant="outline">Get Started</Button>
         </div>
 
