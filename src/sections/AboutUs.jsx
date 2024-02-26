@@ -13,7 +13,7 @@ const teamData = [
   {
     name: "Sivia Goyal",
     designation: "CEO",
-    avatar: "your-avatar-image-1.jpg", // Replace with your image paths
+    avatar: "your-avatar-image-1.jpg", 
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },

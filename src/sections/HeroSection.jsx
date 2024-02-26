@@ -21,7 +21,7 @@ export default function Component() {
         <p className="text-xl mb-8">Get All your Health Data at a click of a Button and Make it earn for You! </p>
 
         <div className="flex space-x-4 ">
-          <Button>The Button</Button>
+          <Button>Contact Us</Button>
           <Button className="" variant="outline">Get Started</Button>
         </div>
 

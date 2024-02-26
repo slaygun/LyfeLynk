@@ -56,11 +56,16 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
               <div className="flex space-x-4">
-                <a className="text-gray-400 hover:text-gray-300" href="https://twitter.com/lyfelynk" target="_blank" rel="noopener noreferrer">
-                  <Twitter className="h-5 w-5" />
-                </a>
-                <a className="text-gray-400 hover:text-gray-300" href="https://www.instagram.com/lyfelynk/" target="_blank" rel="noopener noreferrer">
-                  <Instagram className="h-5 w-5" />
+              <a
+                href="https://twitter.com/lyfelynk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-500 hover:bg-blue-600 w-8 h-8 p-2 object-cover rounded-sm cursor-pointer"
+              >
+                <img src="/assets/X.svg" alt="X" />
+              </a>
+                <a className="text-black bg-blue-500 hover:bg-blue-600 p-2 object-cover rounded-sm" href="https://www.instagram.com/lyfelynk/" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="h-4 w-4" />
                 </a>
               </div>
             </div>
