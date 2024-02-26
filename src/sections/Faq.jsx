@@ -56,7 +56,6 @@ function Faq() {
     <AnimatedSection>
       <section className="py-10 w-full max-w-4xl p-6 mx-auto">
         <div className="text-center">
-          <Badge variant="outline">FAQs</Badge>
           <h1 className="py-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-6xl/none">Frequently Asked Questions</h1>
         </div>
 
