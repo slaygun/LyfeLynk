@@ -1,5 +1,6 @@
 import { Tabs } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
+import AnimatedSection from "@/components/AnimatedSection";
 
 
 export default function Features1() {
@@ -81,10 +82,12 @@ export default function Features1() {
   ];
 
   return (
-    <div id="features" className="container h-[30rem] md:h-[45rem] relative b flex flex-col mx-auto w-full  items-start justify-start md:mt-10 mb-40">
-      <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl my-6">Health ID</h1>
-      <Tabs tabs={tabs} />
-    </div>
+    <AnimatedSection>
+      <div id="features" className="container h-[30rem] md:h-[45rem] relative b flex flex-col mx-auto w-full  items-start justify-start md:mt-10 mb-40">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl my-6">Health ID</h1>
+        <Tabs tabs={tabs} />
+      </div>
+    </AnimatedSection>
   );
 }
 

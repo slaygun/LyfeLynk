@@ -1,3 +1,4 @@
+import AnimatedSection from "@/components/AnimatedSection";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
 
@@ -52,25 +53,27 @@ const faqData = [
 
 function Faq() {
   return (
-    <section className="py-10 w-full max-w-4xl p-6 mx-auto">
-      <div className="text-center">
-        <Badge variant="outline">FAQs</Badge>
-        <h1 className="py-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-6xl/none">Frequently Asked Questions</h1>
-      </div>
+    <AnimatedSection>
+      <section className="py-10 w-full max-w-4xl p-6 mx-auto">
+        <div className="text-center">
+          <Badge variant="outline">FAQs</Badge>
+          <h1 className="py-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-6xl/none">Frequently Asked Questions</h1>
+        </div>
 
-      <div className="mt-6">
-        <Accordion className="w-full divide-y" collapsible type="single">
-          {faqData.map((item, index) => (
-            <AccordionItem key={index} value={`item-${index + 1}`}>
-              <AccordionTrigger className="p-4 cursor-pointer text-lg font-medium text-left"> {/* Align to the left */}
-                {item.question}
-              </AccordionTrigger>
-              <AccordionContent className="p-4 text-lg">{item.answer}</AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
-      </div>
-    </section>
+        <div className="mt-6">
+          <Accordion className="w-full divide-y" collapsible type="single">
+            {faqData.map((item, index) => (
+              <AccordionItem key={index} value={`item-${index + 1}`}>
+                <AccordionTrigger className="p-4 cursor-pointer text-lg font-medium text-left"> {/* Align to the left */}
+                  {item.question}
+                </AccordionTrigger>
+                <AccordionContent className="p-4 text-lg">{item.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </section>
+    </AnimatedSection>
   );
 }
 

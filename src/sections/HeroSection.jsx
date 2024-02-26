@@ -2,12 +2,13 @@ import TiltEffect from "@/components/TiltEffect"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Link } from 'react-scroll';
+import AnimatedSection from "@/components/AnimatedSection";
 
 export default function Component() {
   return (
     
     <section className="px-4 py-5 md:py-10">
-
+      
       <div class="circlePosition w-11/12 h-11/12 bg-[#367ed142] rounded-[100%] absolute -z-10 blur-[100px] flex justify-center items-center">
         <div class="circle w-[17rem] h-[17rem] bg-[#5743ee42] rounded-[100%]" />
       </div>
@@ -33,48 +34,51 @@ export default function Component() {
           <Button className="" variant="outline">Get Started</Button>
         </div>
 
-        <TiltEffect>
-        <img
-          alt="lyfelynk hero picture"
-          className=""
-          height="500"
-          src="/assets/heart.png"
-          style={{
-            //aspectRatio: "300/300",
-            objectFit: "cover",
-          }}
-          width="500"
-        />
-        </TiltEffect>
+        <AnimatedSection>
+          <TiltEffect>
+          <img
+            alt="lyfelynk hero picture"
+            className=""
+            height="500"
+            src="/assets/heart.png"
+            style={{
+              //aspectRatio: "300/300",
+              objectFit: "cover",
+            }}
+            width="500"
+          />
+          </TiltEffect>
+        </AnimatedSection>
 
       </div>
-
-      <div id="vision" className="md:container text-center space-y-4">
-        <Badge className = "text-sm md:text-lg border-blue-600" variant="outline">Our Vision</Badge>
-        <div className="rounded-xl overflow-hidden">
-          <div
-            style={{
-              position: "relative",
-              paddingTop: "56.25%", // 9:16 aspect ratio (1080 / 1920)
-            }}
-          >
-            <video
-              controls
+      
+      <AnimatedSection>
+        <div id="vision" className="md:container text-center space-y-4">
+          <Badge className = "text-sm md:text-lg border-blue-600" variant="outline">Our Vision</Badge>
+          <div className="rounded-xl overflow-hidden">
+            <div
               style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-                objectFit: "cover", // or "contain" based on your preference
+                position: "relative",
+                paddingTop: "56.25%", // 9:16 aspect ratio (1080 / 1920)
               }}
             >
-              <source src="/assets/hero_video.mp4" type="video/mp4" />
-            </video>
+              <video
+                controls
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover", // or "contain" based on your preference
+                }}
+              >
+                <source src="/assets/hero_video.mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
         </div>
-      </div>
-
+      </AnimatedSection>
 
 
     </section>
