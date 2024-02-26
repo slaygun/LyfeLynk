@@ -43,13 +43,13 @@ const teamData = [
 
 export default function AboutUs() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section  id="about"  className="w-full py-12 md:py-24 lg:py-32">
 
       <div class="circlePosition w-11/12 h-11/12 bg-[#367ed142] rounded-[100%] absolute -z-10 blur-[100px] flex justify-center items-center">
         <div class="circle w-[17rem] h-[17rem] bg-[#5743ee42] rounded-[100%]" />
       </div>
 
-      <div id="about" className="container px-4 grid items-center justify-center gap-4 text-center md:px-6 lg:gap-10">
+      <div className="container px-4 grid items-center justify-center gap-4 text-center md:px-6 lg:gap-10">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">

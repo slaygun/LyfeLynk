@@ -90,7 +90,7 @@ const Navbar = () => {
                   to={link.id}
                   smooth={true}
                   duration={500}
-                  offset={-100}
+                  offset={-200}
                   onClick={() => setIsMenuOpen(false)} // Close menu on link click
                   className="cursor-pointer text-bold"
                 >
