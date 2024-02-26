@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 export default function Footer() {
 
   const links = [
-    { id: 'idea', text: 'Idea' },
+    { id: 'vision', text: 'Vision' },
     { id: 'features', text: 'Features' },
     { id: 'about', text: 'About Us' },
     { id: 'contact', text: 'Contact Us' },
