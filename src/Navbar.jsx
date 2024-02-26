@@ -5,7 +5,7 @@ import { Menu } from 'lucide-react';
 
 const Navbar = () => {
   const links = [
-    { id: 'idea', text: 'Idea' },
+    { id: 'vision', text: 'Vision' },
     { id: 'features', text: 'Features' },
     { id: 'about', text: 'About Us' },
     { id: 'contact', text: 'Contact Us' },
@@ -69,7 +69,7 @@ const Navbar = () => {
                 offset={-100}
                 //activeClass="active"
               >
-                <Button variant="ghost">{link.text}</Button>
+                <button className='px-6 hover:text-gray-300'>{link.text}</button>
               </Link>
             </li>
           ))}

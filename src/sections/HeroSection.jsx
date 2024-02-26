@@ -41,7 +41,7 @@ export default function Component() {
 
       </div>
 
-      <div id="idea" className="md:container text-center space-y-4">
+      <div id="vision" className="md:container text-center space-y-4">
         <Badge variant="outline">Our Vision</Badge>
         <div className="rounded-xl overflow-hidden">
           <div

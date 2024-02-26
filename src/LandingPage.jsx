@@ -6,6 +6,7 @@ import Faq from './sections/Faq';
 import Footer from './sections/Footer';
 import AboutUs from './sections/AboutUs';
 import Feature from './sections/feature';
+import Contact from './sections/Contact';
 
 function LandingPage() {
   return (
@@ -15,6 +16,7 @@ function LandingPage() {
     <Feature/>
     <AboutUs/>
     <CTA/>
+    <Contact/>
     <Faq/>
     <Footer/>
     </>

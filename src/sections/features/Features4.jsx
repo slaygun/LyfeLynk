@@ -35,7 +35,7 @@ const Features4 = () => {
               {Array.from({ length: 3 }).map((_, index) => (
                 <motion.div
                   key={index}
-                  className={`cursor-pointer py-2 mb-2 mr-2 rounded-full sm:mb-0 sm:mr-2`}
+                  className={`cursor-pointer py-2 mb-2 mr-2 rounded-2xl sm:mb-0 sm:mr-2`}
                   onClick={() => handleTabClick(index + 1)}
                   whileTap={{ scale: 0.95 }}
                 >

@@ -55,7 +55,7 @@ function Faq() {
     <section className="py-10 w-full max-w-4xl p-6 mx-auto">
       <div className="text-center">
         <Badge variant="outline">FAQs</Badge>
-        <h1 className="py-4 text-6xl font-bold">Frequently Asked Questions</h1>
+        <h1 className="py-4 text-3xl font-bold tracking-tighter sm:text-4xl md:text-6xl/none">Frequently Asked Questions</h1>
       </div>
 
       <div className="mt-6">
@@ -65,7 +65,7 @@ function Faq() {
               <AccordionTrigger className="p-4 cursor-pointer text-lg font-medium text-left"> {/* Align to the left */}
                 {item.question}
               </AccordionTrigger>
-              <AccordionContent className="p-4">{item.answer}</AccordionContent>
+              <AccordionContent className="p-4 text-lg">{item.answer}</AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>

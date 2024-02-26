@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
 @layer base {
   .light {
@@ -49,9 +48,17 @@
     --ring: 224.3 76.3% 48%;
     --radius: 0.75rem;
   }
+
+  .gradient {
+    background-image: linear-gradient(
+      to top,
+      rgb(15, 23, 42),
+      rgb(30, 64, 175)
+    );
+    background-size: cover;
+  }
 }
 
- 
 @layer base {
   * {
     @apply border-border;
