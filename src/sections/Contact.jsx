@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 
 export default function Component() {
   return (
-    <section id="contact" className="w-full py-12 md:py-24 lg:py-32 border">
-      <div className="container px-4 md:px-6">
+    <section id="contact" className="flex items-center px-4 w-full py-12 md:py-24 lg:py-32">
+      <div className="container px-4 md:px-6 p-10 border rounded-lg">
         <div className="grid items-center gap-8 lg:grid-cols-2">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl/none">Get in touch</h2>
