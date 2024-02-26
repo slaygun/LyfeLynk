@@ -24,10 +24,10 @@ const Features4 = () => {
 
   return (
     <section className='container py-10'>
-      <div className="container py-10 flex flex-col lg:flex-row bg-primary rounded-lg bg-gradient-to-r from-violet-400 via-blue-500 to-indigo-600">
+      <div className="container py-10 flex flex-col lg:flex-row bg-primary rounded-lg bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600">
         {/* Content Column */}
         <div className="lg:flex-1 lg:w-1/2">
-            <h1 className="text-3xl md:text-5xl font-extrabold">Tech Stack</h1>
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Tech Stack</h1>
 
           {/* Tab Indicator */}
           <div className="py-4 flex justify-start flex-wrap">

@@ -80,7 +80,7 @@ export default function Features2() {
 
   return (
     <div className="container h-[30rem] md:h-[45rem] relative b flex flex-col mx-auto w-full  items-start justify-start md:mt-10 mb-40">
-      <Badge variant="outline" className="my-6">Ethical Data Sourcing</Badge>
+      <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl my-6">Ethical Data Sourcing</h1>
       <Tabs tabs={tabs} />
     </div>
   );
