@@ -21,7 +21,7 @@ const Features4 = () => {
 const tabContent = [
   (
     <div>
-      <Badge className = "font-medium" variant = "secondary">Internet Computer (Dfinity)</Badge>
+      <Badge className = "font-medium border border-indigo-400" variant = "secondary">Internet Computer (Dfinity)</Badge>
       
       <h1 className="text-xl md:text-2xl font-bold text-white py-4">
       Built on the Blockchain for Unmatched Security & Scalability
@@ -35,7 +35,7 @@ const tabContent = [
   ),
   (
     <div>
-      <Badge className = "font-medium" variant = "secondary">VETKeys</Badge>
+      <Badge className = "font-medium border border-indigo-400" variant = "secondary">VETKeys</Badge>
       <h1 className="text-xl md:text-2xl font-bold text-white py-4">
         Privacy by Design with VETKeys
       </h1>      
@@ -48,7 +48,7 @@ const tabContent = [
   ),
   (
     <div>
-      <Badge className = "font-medium" variant = "secondary">Ayushman Bharat Digital Mission</Badge>
+      <Badge className = "font-medium border border-indigo-400" variant = "secondary">Ayushman Bharat Digital Mission</Badge>
       <h1 className="text-xl md:text-2xl font-bold text-white py-4">
         Aligning with India's Healthcare Vision
       </h1>      
