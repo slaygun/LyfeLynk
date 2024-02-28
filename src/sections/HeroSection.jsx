@@ -53,9 +53,16 @@ export default function Component() {
       </div>
       
       <AnimatedSection>
-        <div id="vision" className="md:container text-center space-y-4">
-          <h1 className = "text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl  bg-gradient-to-l from-yellow-500 via-blue-500 to-indigo-500 text-transparent bg-clip-text">
-            Our Vision</h1>
+        <div id="vision" className="md:container text-center space-y-4 ">
+          
+          <div className="flex justify-center">
+            <div class="bg-gradient-to-r from-slate-400 to-indigo-500 my-6 p-0.5 rounded-full ">
+              <div class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl py-2 px-4 bg-background rounded-full">
+                Our Vision
+              </div>
+            </div>
+          </div>
+        
           <div className="rounded-xl overflow-hidden">
             <div
               style={{
