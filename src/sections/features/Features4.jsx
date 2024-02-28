@@ -102,10 +102,10 @@ const tabContent = [
             </div>
 
             {/* Tab Content */}
-            <div className="p-2 pr-8 lg:h-full">
+            <div className="p-2 md:pr-8 lg:h-full">
               {Array.from({ length: 3 }).map((_, index) => (
                 <div key={index} className={`h-1/2 ${activeTab === index + 1 ? '' : 'hidden'}`}>
-                  <p className='md:text-xl'>
+                  <p className='text-sm md:text-xl'>
                     {tabContent[index]}
                   </p>
                 </div>
