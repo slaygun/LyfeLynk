@@ -82,7 +82,13 @@ export default function Features2() {
   return (
     <AnimatedSection>
       <div className="container h-[30rem] md:h-[45rem] relative b flex flex-col mx-auto w-full  items-start justify-start md:mt-10 mb-40">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl my-6">DeAI Analytics</h1>
+        
+        <div class="bg-gradient-to-r from-slate-400 to-indigo-500 my-6 p-0.5 rounded-full ">
+          <div class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl py-2 px-4 bg-background rounded-full">
+            DeAI Analytics
+          </div>
+        </div>
+        
         <Tabs tabs={tabs} />
       </div>
     </AnimatedSection>
