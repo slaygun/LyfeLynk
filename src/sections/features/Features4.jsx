@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import AnimatedSection from '@/components/AnimatedSection';
+import { Badge } from "@/components/ui/badge"
 
 const Features4 = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -15,13 +16,50 @@ const Features4 = () => {
     "https://picsum.photos/300/200?image=3",
   ];
 
-  const tabNames = ["Tech1", "Tech2", "Tech3"];
+  const tabNames = ["Dfinity", "VETKeys", "ABDM"];
 
-  const tabContent = [
-    "Content for Tech 1: This is the content for the first tab. It includes details about the first technology.",
-    "Different content for Tech 2: Explanation for the second tab. Here you can provide information about the second technology.",
-    "Unique content for Tech 3: Description for the third tab. This section contains details about the third technology.",
-  ];
+const tabContent = [
+  (
+    <div>
+      <Badge variant = "secondary">Internet Computer (Dfinity)</Badge>
+      <h1 className="text-xl md:text-2xl font-bold text-white py-4">
+      Built on the Blockchain for Unmatched Security & Scalability
+      </h1>
+      <p>
+      Lyfelynk leverages the power of the Internet Computer blockchain, 
+      providing decentralized infrastructure that guarantees the utmost 
+      security and scalability for your sensitive health data.
+      </p>
+    </div>
+  ),
+  (
+    <div>
+      <Badge variant = "secondary">VETKeys</Badge>
+      <h1 className="text-xl md:text-2xl font-bold text-white py-4">
+        Privacy by Design with VETKeys
+      </h1>      
+      <p>
+      Lyfelynk employs cutting-edge VETKeys technology to ensure your health 
+      data remains anonymous while empowering medical research. VETKeys enable 
+      advanced encryption and secure sharing without compromising your privacy.      
+      </p>
+    </div>
+  ),
+  (
+    <div>
+      <Badge variant = "secondary">Ayushman Bharat Digital Mission</Badge>
+      <h1 className="text-xl md:text-2xl font-bold text-white py-4">
+        Aligning with India's Healthcare Vision
+      </h1>      
+      <p>
+      Lyfelynk proudly integrates with the ABDM framework, empowering you to contribute 
+      your health data to support nation-wide healthcare advancement. Your participation 
+      plays a vital role in driving research and improving healthcare delivery for all Indians.
+      </p>
+    </div>
+  ),
+];
+
 
   return (
     <AnimatedSection>
@@ -32,7 +70,7 @@ const Features4 = () => {
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Tech Stack</h1>
 
             {/* Tab Indicator */}
-            <div className="py-4 flex justify-start flex-wrap">
+            <div className="pt-4 flex justify-start flex-wrap">
               <div className="flex px-2 rounded-full shadow-md bg-black">
                 {Array.from({ length: 3 }).map((_, index) => (
                   <motion.div
@@ -42,7 +80,7 @@ const Features4 = () => {
                     whileTap={{ scale: 0.95 }}
                   >
                     <div
-                      className={`relative py-2 px-3 rounded-full text-white ${
+                      className={`relative flex items-center py-2 px-3 rounded-full text-white ${
                         activeTab === index + 1 ? 'bg-gray-800' : ''
                       }`}
                     >
@@ -53,7 +91,7 @@ const Features4 = () => {
                           className={`absolute inset-0 light:bg-gray-200 bg-gray-800 rounded-full`}
                         />
                       )}
-                      <span className={`relative z-10 text-sm`}>
+                      <span className={`relative z-10 text-sm md:text-md`}>
                         {tabNames[index]}
                       </span>
                     </div>
@@ -63,7 +101,7 @@ const Features4 = () => {
             </div>
 
             {/* Tab Content */}
-            <div className="p-2 lg:h-full">
+            <div className="p-2 pr-8 lg:h-full">
               {Array.from({ length: 3 }).map((_, index) => (
                 <div key={index} className={`h-1/2 ${activeTab === index + 1 ? '' : 'hidden'}`}>
                   <p className='md:text-xl'>
