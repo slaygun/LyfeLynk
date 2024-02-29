@@ -21,10 +21,8 @@ export default function Footer() {
         <div>
           
           <div className="text-xl font-semibold mb-4 flex items-center space-x-2">
-            <img src="/assets/lyfelynk.svg" alt="LyfeLynk Logo" className="w-8 h-8 mr-2" />
-            <a href="/" className="scroll-m-20 text-2xl lg:text-3xl font-semibold tracking-tight">
-              LyfeLynk
-            </a>
+            <img src="/assets/lyfelynk.png" alt="LyfeLynk" className="w-44 h-8" />
+
           </div>
           <p className="text-gray-400">
             Digitally Linking Your Health.

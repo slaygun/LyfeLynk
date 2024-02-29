@@ -52,9 +52,9 @@ const Navbar = () => {
           </div>
 
           {/* LyfeLynk logo and name */}
-          <Link className = "flex cursor-pointer" onClick={handleLogoClick} to="/">
-            <img src="/assets/lyfelynk.svg" alt="LyfeLynk" className="w-8 h-8 mr-2" />
-          <span className="text-2xl font-bold">LyfeLynk</span>
+          <Link className = "cursor-pointer" onClick={handleLogoClick} to="/">
+            <img src="/assets/lyfelynk.png" alt="LyfeLynk" className="w-44 h-8" />
+          {/*<span className="text-2xl font-bold">LyfeLynk</span>*/}
           </Link>
         </div>
 
