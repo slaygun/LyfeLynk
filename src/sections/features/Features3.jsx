@@ -14,7 +14,7 @@ export default function Features2() {
           <p className="text-sm md:text-2xl mb-4">LyfeLynk's cutting-edge AI analyzes data with meticulous precision, providing researchers with the clearest picture of health trends. Ensure your data helps generate the most accurate and beneficial health discoveries.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f3-1.png"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -32,7 +32,7 @@ export default function Features2() {
           <p className="text-sm md:text-2xl mb-4">Our powerful AI safeguards sensitive information while unlocking profound health insights. Rest easy knowing your privacy is safe as science moves forward.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f3-2.png"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -50,7 +50,7 @@ export default function Features2() {
           <p className="text-sm md:text-2xl mb-4">Help guide LyfeLynk's AI development to drive research tailored to the medical concerns that matter most to you. Shape the future of healthcare analytics for the issues closest to your heart.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f3-3.png"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -68,7 +68,7 @@ export default function Features2() {
           <p className="text-sm md:text-2xl mb-4">Become part of a global effort to develop innovative healthcare solutions with benefits that extend far and wide. Your data can contribute to improving lives on an international scale.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f3-4.png"
             alt="dummy image"
             width="1000"
             height="1000"

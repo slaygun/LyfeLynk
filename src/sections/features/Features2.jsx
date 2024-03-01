@@ -14,7 +14,7 @@ export default function Features2() {
           <p className="text-sm md:text-2xl mb-4">Share your anonymized health data and accelerate discoveries that have the potential to transform the medical world.. Your contributions could make a real difference in the lives of many.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f2-1.png"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -32,7 +32,7 @@ export default function Features2() {
           <p className="text-sm md:text-2xl mb-4">LyfeLynk ensures you receive fair compensation whenever your contributions fuel valuable research projects. Get rewarded for making positive contributions to healthcare.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f2-2.png"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -50,7 +50,7 @@ export default function Features2() {
           <p className="text-sm md:text-2xl mb-4">Help drive research that improves healthcare for yourself, your loved ones, and people around the world. Become a champion of medical progress.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f2-3.png"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -68,7 +68,7 @@ export default function Features2() {
           <p className="text-sm md:text-2xl mb-4">Track how your data is used, understand its impact, and retain full control over every aspect of the process. LyfeLynk prioritizes transparency so you're always informed and in charge.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f2-4.png"
             alt="dummy image"
             width="1000"
             height="1000"

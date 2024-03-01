@@ -14,7 +14,7 @@ export default function Features1() {
           <p className="text-sm md:text-2xl mb-4">LyfeLynk puts you in complete control of your health data – no more scattered records or corporate ownership. Take charge of your health journey.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f1-1.png"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -33,7 +33,7 @@ export default function Features1() {
 
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f1-2.png"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -52,7 +52,7 @@ export default function Features1() {
 
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f1-3.png"
             alt="dummy image"
             width="1000"
             height="1000"
@@ -70,7 +70,7 @@ export default function Features1() {
           <p className="text-sm md:text-2xl mb-4">Get crystal-clear insights into your health, explained in a way you can actually understand and use to improve your wellbeing. Unlock the power of knowledge to make informed health decisions.
           </p>
           <img
-            src="/assets/image.png"
+            src="/assets/feature_pics/f1-4.png"
             alt="dummy image"
             width="1000"
             height="1000"

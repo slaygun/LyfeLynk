@@ -11,9 +11,9 @@ const Features4 = () => {
   };
 
   const tabImages = [
-    "https://picsum.photos/300/200?image=1",
-    "https://picsum.photos/300/200?image=2",
-    "https://picsum.photos/300/200?image=3",
+    "/assets/feature_pics/f4-1.png",
+    "/assets/feature_pics/f4-2.png",
+    "/assets/feature_pics/f4-3.png",
   ];
 
   const tabNames = ["Dfinity", "VETKeys", "ABDM"];
