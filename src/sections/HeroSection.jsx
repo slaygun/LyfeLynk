@@ -72,6 +72,7 @@ export default function Component() {
             >
               <video
                 controls
+                poster="/assets/thumbnail.png"
                 style={{
                   position: "absolute",
                   top: 0,
