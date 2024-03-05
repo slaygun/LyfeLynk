@@ -11,7 +11,7 @@ export default function Features2() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-lg p-10 gradient">
           <h1 className="text-xl md:text-4xl pb-4 font-bold text-white">Leave no doubt.</h1>
-          <p className="text-sm md:text-2xl mb-4">LyfeLynk's cutting-edge AI analyzes data with meticulous precision, providing researchers with the clearest picture of health trends. Ensure your data helps generate the most accurate and beneficial health discoveries.
+          <p className="text-sm md:text-2xl mb-4">LyfeLynk's advanced AI meticulously analyzes data, offering researchers a clear picture of health trends. Contribute to accurate health discoveries with your data.
           </p>
           <img
             src="/assets/feature_pics/f3-1.png"

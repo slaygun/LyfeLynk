@@ -10,8 +10,8 @@ export default function Features2() {
       value: "Impact",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-lg p-10 gradient">
-          <h1 className="text-xl md:text-4xl pb-4 font-bold text-white">Be a catalyst for scientific advancement!</h1>
-          <p className="text-sm md:text-2xl mb-4">Share your anonymized health data and accelerate discoveries that have the potential to transform the medical world.. Your contributions could make a real difference in the lives of many.
+          <h1 className="text-xl md:text-4xl pb-4 font-bold text-white">Accelerate scientific advancements!</h1>
+          <p className="text-sm md:text-2xl mb-4">Share your anonymized health data and accelerate discoveries that have the potential to transform the medical world and make a meaningful impact on countless
           </p>
           <img
             src="/assets/feature_pics/f2-1.png"
@@ -85,7 +85,7 @@ export default function Features2() {
         
         <div class="bg-gradient-to-r from-slate-400 to-indigo-500 my-6 p-0.5 rounded-full ">
           <div class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl py-2 px-4 bg-background rounded-full">
-            Ethical Data Sourcing
+            Ethical Data 
           </div>
         </div>
 
