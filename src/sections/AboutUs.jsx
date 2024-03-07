@@ -14,28 +14,28 @@ const teamData = [
   {
     name: "Sivia Goyal",
     designation: "CEO",
-    avatar: "your-avatar-image-1.jpg", 
+    avatar: "assets/team/ceo.jpeg", 
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Civil engineer, MBA, and Edtech entrepreneur (1K to 100K+ users). Combines tech and healthcare experience (Infosys, Dr. Reddy Labs) with a passion for blockchain-driven innovation.",
   },
   {
     name: "Aaditya Chandankar",
     designation: "CTO",
-    avatar: "your-avatar-image-2.jpg",
+    avatar: "assets/team/cto.jpeg",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Mechanical engineer, Web3 specialist, proven blockchain developer (Ethereum, Avalanche, Polygon, ICP). Health tech research experience. Passionate about decentralized healthcare solutions.",
   },
   {
     name: "Nabh Raghav",
     designation: "Lead Designer",
-    avatar: "your-avatar-image-2.jpg",
+    avatar: "assets/team/designer.jpeg",
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
   {
     name: "Harshvardhan Singh",
     designation: "AI & ML Head",
-    avatar: "your-avatar-image-2.jpg",
+    avatar: "assets/team/aiml.jpeg",
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
   },
