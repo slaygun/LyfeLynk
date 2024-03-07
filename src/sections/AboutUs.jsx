@@ -30,14 +30,14 @@ const teamData = [
     designation: "Lead Designer",
     avatar: "assets/team/designer.jpeg",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Frontend Expert, UI/UX Specialist excelling in crafting visually captivating designs, dedicated to elevating user experiences through innovation, precision and creativity.",
   },
   {
     name: "Harshvardhan Singh",
     designation: "AI & ML Head",
     avatar: "assets/team/aiml.jpeg",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "AI & ML Head. Data Science Specialist excelling in leveraging advanced technologies. Drives innovation, analytics, and insightful solutions for enhanced data-driven decision-making.",
   },
   // Add more team members here
 ];
